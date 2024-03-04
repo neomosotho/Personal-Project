@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./assets/css/tailwind/tailwind.min.css">
+  <link rel="stylesheet" href="./assets/css/theme.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <title>Log In</title>
+
+</head>
+
+<body class="bg-cover bg-center h-screen" style="background-image: url(/assets/new\ background.jpg);">
+
+    <div class="flex-col justify-center mx-auto">
+      <div>
+      <h3 class="flex justify-center pt-12">Have an account?</h3>
+      </div>
+      <div>
+      <h2 class="flex justify-center text-white font-bold p-4 text-2xl">Log In</h2>
+      </div>
+
+    <div class="flex flex-col justify-center">
+      <form>
+        <!-- Username Field -->
+        <div class="mb-4 flex justify-center">
+          <label for="username" class="block text-gray-600 font-semibold px-4">Username</label>
+          <input type="text" id="username" name="username" class="w-75 px-4 py-2 bg-gray-100  border border-gray-300 rounded-3xl focus:outline-none focus:ring focus:border-blue-300" placeholder="Enter your username" required>
+        </div>
+  
+        <!-- Password Field -->
+        <div class="mb-4 flex justify-center">
+          <label for="password" class="block text-gray-600 font-semibold px-4"> Password</label>
+          <input type="password" id="password" name="password" class="w-75 px-4 py-2 bg-gray-100 border border-gray-300 rounded-3xl focus:outline-none focus:ring focus:border-blue-300" placeholder="Enter your password" required>
+        </div>
+  
+        <!-- Submit Button -->
+        <div class="flex justify-center">
+        <button type="submit" class="w-3/12 bg-blue-500 text-white py-2 rounded-3xl hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
